@@ -766,7 +766,7 @@ async function initTransfer() {
             }}
               id="displayconfirm2"
             ></Text>
-            <a href={confirmLink} target="_blank" placeholder="Transaction Info">
+            <a href={confirmLink} target="_blank" rel='noreferrer' placeholder="Transaction Info">
               <div style={{color:"#ffffff", 
               fontSize:'18px',
               textDecoration:'underline',
